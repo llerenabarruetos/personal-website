@@ -1,0 +1,393 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(30, 30, 30);
+    color: rgb(245, 245, 245);
+}
+
+/*---- index.php: ----*/
+.main-container {
+    display: flex;
+}
+.center-box {
+    flex: 3;
+    padding: 1rem;
+}
+.side-box {
+    flex: 1;
+}
+/*- Welcome Banner -*/
+.banner {
+    text-align: center;
+}
+.profilePic {
+    border-radius: 50%;
+    width: 11rem;
+    margin: 1rem 0 0;
+}
+.banner h1 {
+    font-size: 2.75rem;
+    padding: 1rem 0 0.5rem;
+    font-weight: 600;
+}
+.shuffled {
+    display: inline !important;
+    letter-spacing: 10px;
+}
+#shuffled {
+    margin: 1.2rem 0 1.2rem;
+}
+.link {
+    text-decoration: none !important;
+}
+.icon {
+    color: rgb(245, 245, 245);
+    font-size: 2rem;
+    margin: 0 1rem 0;
+}
+.icon:hover {
+    color: rgb(0, 162, 255);
+}
+.banner h2 {
+    font-size: 1.35rem;
+    padding: 0rem 0 1rem;
+}
+/*- About -*/
+.about {
+    margin: 2rem 0 0;
+}
+.about h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.about p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: justify;
+    padding-right: 1rem;
+}
+/*- Projects -*/
+.projects {
+    margin: 3rem 0 0;
+}
+.bigProjectBox {
+    position: relative;
+    text-align: left;
+    padding: 2rem 2rem 2rem;
+    border-radius: 3rem;
+    margin: 2rem 0 1rem;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.lifescoinBg {
+    background: rgb(0,108,255);
+    background: linear-gradient(142deg, rgba(0,108,255,1) 16%, rgba(0,173,255,1) 46%, rgba(0,173,255,1) 64%, rgba(255,173,21,1) 64%, rgba(255,173,21,1) 79%, rgba(0,173,255,1) 79%, rgba(0,108,255,1) 100%);
+}
+.lakedeepBg {
+    color: black;
+    background: rgb(43,224,36);
+    background: linear-gradient(142deg, rgba(43,224,36,1) 0%, rgba(128,235,124,1) 21%, rgba(255,222,159,1) 21%, rgba(255,222,159,1) 27%, rgba(0,198,255,1) 27%, rgba(0,198,255,1) 51%, rgba(0,70,179,1) 100%);
+}
+.lakedevsBg {
+    background: rgb(0,22,187);
+    background: linear-gradient(90deg, rgba(0,22,187,1) 0%, rgba(0,203,255,1) 46%, rgba(193,0,235,1) 86%);
+}
+.bigProjectBox img {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    height: 5rem;
+}
+.ducks {
+    bottom: 1.5rem !important;
+    right: 5rem !important;
+    height: 8rem !important;
+}
+.bigProjectBox h1 {
+    font-size: 3rem;
+    letter-spacing: 0.25rem;
+    position: relative;
+    z-index: 999;
+    margin: 0 0 0.5rem;
+}
+.bigProjectBox p {
+    font-size: 1.75rem;
+    z-index: 999;
+    position: relative;
+    margin: 0 0 0.5rem;
+}
+.projectRow {
+    display: flex;
+    margin: 2rem 0 1rem;
+}
+.projectBox {
+    flex: 50%;
+    background-color: navy;
+    margin-left: 1rem;
+    border-radius: 2rem;
+    padding: 0.75rem 1rem 0.75rem;
+    text-align: center;
+}
+.projectBox h1 {
+    font-size: 2rem;
+}
+/*- Contact -*/
+.contact {
+    margin: 2.5rem 0 2rem;
+}
+.contact h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.contactForm {
+    text-align: center;
+}
+.contactForm p {
+    margin: 1.5rem 0 0.4rem;
+    font-size: 1.5rem;
+}
+.contactForm input {
+    width: 20rem;
+    border-radius: 7px;
+    border: none;
+    font-size: 1.3rem;
+    padding: 0.2rem 0.5rem 0.2rem;
+    outline: none;
+}
+.subjectOfMessage {
+    width: 30rem !important;
+}
+.contactForm textarea {
+    font-size: 1.3rem !important;
+    border-radius: 7px;
+    border: none;
+    padding: 0.2rem 0.5rem 0.2rem;
+    outline: none;
+    width: 40rem;
+    height: 16rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.whiteButton {
+    display: block;
+    margin: auto;
+    width: auto;
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    padding: 0.37rem 0.75rem;
+    border: 1px solid transparent;
+    line-height: 1.5;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    background-color: #e8e8e8;
+}
+.whiteButton:hover {
+    background: rgb(179, 179, 179);
+    color: black;
+}
+.footer {
+    width: 100%;
+    background: black;
+    color: #9c9c9c;
+    text-align: center;
+    padding: 0.75rem 0 0.75rem;
+}
+
+/*---- thankYou.php ----*/
+.thank-you-container {
+    text-align: center;
+    margin: 4rem 2rem 2rem;
+}
+.thank-you-container h1 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+.thank-you-container h2 {
+    font-size: 2rem;
+}
+.thank-you-container img {
+    height: 8rem;
+    -webkit-animation-name:            rotate;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration:        4s; 
+    -webkit-animation-timing-function: linear;
+}
+.gratitudeButton {
+    width: fit-content;
+    background-color: rgb(219, 219, 219);
+    margin-top: 2rem;
+    text-decoration: none;
+    color: black;
+}
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+/*---- Project Pages: ----*/
+/*---- lakedeep.php: ----*/
+.projectInfoContainer {
+    position: relative;
+    margin-bottom: 3rem;
+}
+.projectInfoContainer img {
+    height: 7rem;
+}
+.projectTitleBox {
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+.projectTitleBox h1 {
+    letter-spacing: 4px;
+    font-size: 2.8rem;
+    margin: 1rem 0rem 0rem;
+}
+.projectTitleBox h3 {
+    letter-spacing: 3px;
+    font-size: 1.55rem;
+    margin: 0;
+}
+.projectLength {
+    position: absolute;
+    right: 0;
+    top: 21%;
+
+    color: black;
+    background: rgb(43,224,36);
+    background: linear-gradient(25deg, rgba(43,224,36,1) 0%, rgba(128,235,124,1) 50%,  rgba(0,198,255,1) 50%, rgba(0,198,255,1) 100%);
+    border-radius: 3rem;
+    padding: 0.5rem 1rem 0.5rem;
+    font-size: 1.2rem;
+}
+.projectLengthLCBG {
+    color: white;
+    background: rgb(43,224,36);
+    background: linear-gradient(25deg, rgba(0,173,255,1) 0%, rgba(0,173,255,1) 50%,  rgba(255,173,21,1) 50%, rgba(255,173,21,1) 100%);
+}
+.projectLengthLDevsBG {
+    color: white;
+    background: rgb(43,224,36);
+    background: linear-gradient(25deg, rgb(0, 162, 255) 0%, rgb(0, 162, 255) 50%,  rgb(208, 0, 255) 50%, rgb(208, 0, 255) 100%);
+}
+.projectLength h3 {
+    margin: 0;
+    text-align: center;
+}
+.projectLength p {
+    margin: 0;
+    padding-top: 0.2rem;
+    font-size: 1.3rem;
+}
+.projectLink { 
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 162, 255);
+    margin-top: 2rem;
+    padding: 1.3rem 0.5rem 0.55rem;
+    border-radius: 2rem;
+    white-space: nowrap;
+}
+.projectLink div{
+    display: inline-block;
+    font-size: 2rem;
+    font-family: monospace;
+}
+.projectLink:hover {
+    background-color: rgb(0, 130, 206);
+}
+.projectIcon {
+    color: rgb(245, 245, 245);
+    font-size: 2rem;
+    margin: 0;
+    margin-right: 0.2rem;
+}
+.projectAbout {
+    display: flex;
+    margin: 3rem 0 0rem;
+}
+.projectCol {
+    flex: 1;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+.projectCol div {
+    line-height: 1.85rem;
+    margin-right: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.projectCol img {
+    width: 100%;
+}
+.subtitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem 0rem 1rem;
+}
+.techUsed {
+    background-color: rgb(0, 162, 255);
+    display: inline-block;
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem 0.5rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    font-weight: 600;
+}
+.myGames {
+    display: flex;
+    margin: 0rem 0rem 1rem;
+}
+.gameBox {
+    flex: 1;
+    text-align: center;
+}
+.gameBox h2 {
+    font-size: 1.65rem;
+    margin: 0 0 1rem;
+    font-weight: 400;
+}
+.gameBox img {
+    width: 95%;
+}
+.gameBox p {
+    font-size: 1.3rem;
+    text-align: justify;
+    padding: 0 0.5rem 0;
+}
+@media (max-width: 1260px) {
+    .projectTitleBox {
+        display: block;
+    }
+    .projectLength {
+        top: 10%;
+    }
+    .projectInfoContainer {
+        margin-bottom: 1rem;
+    }
+    .projectAbout, .myGames {
+        display: block; 
+    }
+    .projectAbout {
+        margin-top: 2rem;
+    }
+    .projectCol div {
+        margin-right: 0;
+    }
+    .techUsed {
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width: 800px) {
+    .side-box {
+        flex: 0;
+    }
+}
+@media (max-width: 800px) {
+    .footer {
+        background: none;
+        text-align: left;
+        padding: 0 2rem 2rem;
+    }
+}
